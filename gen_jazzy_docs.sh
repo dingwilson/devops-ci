@@ -13,7 +13,7 @@ if [[ "${TRAVIS_PULL_REQUEST}" == "false" ]] && [[ "${TRAVIS_BRANCH}" == "master
 	git pull origin master
 
 	# install jazzy
-	gem install jazzy
+	gem install jazzy -v 0.13.1
 
 	# remove existing docs
 	rm -rf docs/
